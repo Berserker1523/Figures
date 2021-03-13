@@ -65,10 +65,10 @@ public class ObjectSpawner : MonoBehaviour
             spawnDelayTimer = 0;
         }
 
-        if (!hasDeletedAll && runTimer >= RunSeconds)
+        /*if (!hasDeletedAll && runTimer >= RunSeconds)
         {
             DeleteOverlappedFigures();
-        }
+        }*/
 
         Debug.Log(runTimer);
     }
